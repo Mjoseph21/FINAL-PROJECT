@@ -1,0 +1,186 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.banner{
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0, 0, 0, 0.75)),url(night.gif);
+	background-size: cover;
+	background-position: center;
+}
+.logo{
+	background-size:  cover;
+	background-repeat: no-repeat;
+	background-position:  center;
+	background-blend-mode: darken;
+	image-rendering: rgba(0, 0, 0, 0.5);
+} 
+.navbar {
+    background: #558E86;
+    border: azure;
+    width: 85%;
+    margin: auto;
+    height: 50px;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: space-between;
+}
+.logo{
+	width: 120px;
+	cursor: pointer;
+}
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+}
+.navbar ul li::after{
+	content: '';
+	height: 3px;
+	width: 0;
+	background: #1E437A;
+	position: absolute;
+	left: 0;
+	bottom: -8;
+	transition: 0.3s;
+}
+.navbar ul li:hover::after{
+	width: 100%;
+}
+.navbar ul li:visited {
+	border: 2px solid royalblue;
+	color: royalblue;
+}
+.navbar ul li:active{
+	border: 2px solid royalblue;
+	color: royalblue;
+}
+.content {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: block;
+    align-items: flex-start;
+    text-decoration: none;
+    justify-content: space-between;
+    color: #fff;
+}
+.content background{
+	color: #558E86;
+}
+.content h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    align-items: auto;
+    font-family: 'Baskerville';
+}
+.content p{
+	margin: 20px auto;
+	font-weight: 100;
+	line-height: 25px;
+}
+.pics{
+
+
+}
+.row{
+	display: flex;
+	padding: 50px;
+	height: 88%;
+	align-items: center;
+}
+.col{
+	flex-basis: 50%;
+}
+h1{
+	color: #fff;
+	font-size: 90px;
+}
+p{
+	color: #fff;
+	font-size: 18px;
+}
+button{
+	width: 180px;
+	color: #000;
+	font-size: 12px;
+	padding: 12px 0;
+	background: #fff;
+	border: 0;
+	border-radius: 20px;
+	outline: none;
+	margin-top: 30px;
+}
+.card{
+	width: 250px;
+	height: 245px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 10px 15px;
+	background-position: center;
+	background-size: cover;
+	transition: transform 0.5s;
+}
+.card1{
+	background-image: url(self-portrait.jpg);
+}
+.card2{
+	background-image: url(starry-night.jpg);
+}
+.card3{
+	background-image: url(15-flower.jpg);
+}
+.card4{
+	background-image: url(cafe-terrace.jpg);
+}
+.card:hover{
+	transform: translateY(-10px);
+}
+h5{
+	color: #700e0e;
+	font-size: 20px;
+	text-shadow: 0 0 5px #999;
+}
+.card p{
+	text-shadow: 0 0 15px #000;
+	font-size: 13px;
+}
+.content-others{
+	color: #979958;
+	padding: 70px;
+	background-image: linear-gradient(rgb(48 47 28),rgba(0, 0, 0, 0.75));
+}
+.line ol li{
+	padding: 10;
+}
+.paint-painting{
+	padding: 10px;
+}
+h3{
+	color: #86b5e5;
+    font-size: 20px;
+    padding: 19px;
+}
+.col-parents p{
+	width: 80%;
+	text-align: center;
+	padding: 19px;
+}
+.row-parents{
+	display: flex;
+    padding: 50px;
+    align-items: baseline;
+}
